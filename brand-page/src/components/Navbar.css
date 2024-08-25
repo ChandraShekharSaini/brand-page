@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --red:#d01c28;
+  --gray:#2e2e2e;
+}
+
+.navbar{
+  border-bottom: 0.5px solid gainsboro;
+}
+
+nav {
+  width: 70%;
+  height: 55px;
+  margin: auto;
+  
+}
+
+nav {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+nav .links a {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+nav .links a:hover{
+  color: var(--red);
+}
+
+nav button {
+  /* width: 4vw; */
+  background-color: var(--red); 
+  color: white;
+  padding: 6px 16px;
+  border: 0;
+  font-weight: 500px;
+}
+
+
+nav button:hover{
+  cursor: pointer;
+  background-color: hsl(356, 89%, 52%);
+  transform: scale(1.08);
+  
+}

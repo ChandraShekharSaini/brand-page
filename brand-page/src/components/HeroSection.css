@@ -1,0 +1,18 @@
+.hero {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero .hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-image img {
+  padding: 20px 5px;
+  width: 400px;
+}
